@@ -1,3 +1,33 @@
+# 🌐 Agent Referee System
+
+The **Agent Referee System** is a full-stack multi-agent reasoning framework designed to ensure **high-quality, validated AI responses**.  
+It consists of a modern **Tailwind-powered frontend**, a **FastAPI backend** orchestrating a **4-agent workflow**, and a **Gemini-based Referee** that validates decisions.
+
+---
+
+## ✨ Features
+
+### 🧠 Multi-Agent Reasoning Pipeline
+The system processes user queries through four specialized agents:
+
+1. **Primary Solver** — Generates the initial full solution.  
+2. **Logic Critic** — Checks for logical consistency and fallacies.  
+3. **Domain Expert** — Validates factual correctness.  
+4. **Optimizer** — Produces the refined final output.
+
+---
+
+### 🔎 Gemini Referee System
+A strict judge layer that acts as the final gatekeeper.
+
+```json
+{
+  "verdict": "VALID | INVALID",
+  "reason": "Explanation of the decision...",
+  "required_fixes": ["List of specific issues to address"],
+  "confidence_score": 85
+}
+
  🌐 Agent Referee System
 
 The Agent Referee System is a full-stack multi-agent reasoning framework designed to ensure high-
